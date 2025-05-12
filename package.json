@@ -1,0 +1,21 @@
+{
+  "name": "yuzuctus-osu-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for osu! projects",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --minify"
+  },
+  "keywords": [
+    "osu",
+    "portfolio",
+    "gaming",
+    "tools"
+  ],
+  "author": "Yuzuctus",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+} 

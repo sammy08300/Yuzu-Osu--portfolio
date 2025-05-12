@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuzuctus osu! Portfolio</title>
+    <!-- Use the dist folder for the compiled CSS -->
+    <link rel="stylesheet" href="dist/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <h1><span class="osu">osu!</span> <span class="yuzu">Yuzuctus</span></h1>
+                <p class="subtitle">My personal portfolio for osu! projects</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to my <span class="osu">osu!</span> portfolio</h2>
+                <p>I've been a passionate osu! player since 2022, developing tools and resources initially for my own use. As I've refined these projects, I'm now excited to share them with the wider community. My goal is to enhance my own experience while helping other players discover new ways to enjoy and improve at the game.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn">Explore Projects</a>
+                    <a href="https://osu.ppy.sh/users/14062291" target="_blank" class="secondary-btn">
+                        <i class="fas fa-user"></i> My osu! Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My <span class="osu">osu!</span> Projects</h2>
+                <p>Check out these tools and resources I've created for the community</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/assets/images/Osurea.avif" alt="osurea Area Tool">
+                    </div>
+                    <div class="project-info">
+                        <h3>osurea</h3>
+                        <p>Tablet area and sensitivity calculator for osu! players</p>
+                        <div class="project-tags">
+                            <span>Tool</span>
+                            <span>Tablets</span>
+                            <span>Sensitivity</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://osurea.vercel.app/" target="_blank" class="visit-btn">Visit Site</a>
+                            <a href="#" class="details-btn" data-project="osurea">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/assets/images/OsuYuzuskins.avif" alt="osu-yuzu-skins">
+                    </div>
+                    <div class="project-info">
+                        <h3>osu-yuzu-skins</h3>
+                        <p>Collection of custom osu! skins and skin resources</p>
+                        <div class="project-tags">
+                            <span>Gallery</span>
+                            <span>Skins</span>
+                            <span>Resources</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://osu-yuzu-skins.vercel.app/" target="_blank" class="visit-btn">Visit Site</a>
+                            <a href="#" class="details-btn" data-project="skins">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project <span class="osu">Features</span></h2>
+                <p>What makes these tools special</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h3>Tablet Area Calculator</h3>
+                    <p>Easily calculate and visualize your optimal tablet area for osu!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Skin Collection</h3>
+                    <p>Browse and download custom skins to enhance your gameplay experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-save"></i>
+                    </div>
+                    <h3>Save Preferences</h3>
+                    <p>Store your settings and preferences for future reference</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Access all tools on any device with responsive design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About <span class="yuzu">Yuzuctus</span></h2>
+                    <p>
+                        I've been a passionate osu! player since 2022, developing tools and resources initially for my own use. As I've refined these projects, I'm now excited to share them with the wider community. My goal is to enhance my own experience while helping other players discover new ways to enjoy and improve at the game.
+                    </p>
+                    <p>
+                        All of my projects are free to use and open to feedback. If you have suggestions or ideas
+                        for improvements, please don't hesitate to reach out on Discord or Twitter.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="connect-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's <span class="yuzu">Connect</span></h2>
+                <p>Find me on these platforms</p>
+            </div>
+            <div class="connect-links">
+                <a href="https://discord.gg/66s8TF6Hwj" class="connect-link" target="_blank">
+                    <i class="fab fa-discord"></i>
+                    <div class="connect-info">
+                        <h3>Discord</h3>
+                        <p>yuzuctus</p>
+                    </div>
+                </a>
+                <a href="https://x.com/yuzuctus" class="connect-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <div class="connect-info">
+                        <h3>X.com</h3>
+                        <p>@yuzuctus</p>
+                    </div>
+                </a>
+                <a href="https://github.com/sammy08300" class="connect-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <div class="connect-info">
+                        <h3>GitHub</h3>
+                        <p>sammy08300</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Project Preview">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h2 id="modalTitle"></h2>
+                <div class="modal-links">
+                    <a id="modalVisitLink" href="#" class="download-button" target="_blank">Visit Site</a>
+                    <a id="modalGithubLink" href="#" class="forum-button" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3><span class="osu">osu!</span> <span class="yuzu">Yuzuctus</span></h3>
+                    <p>Creating tools and resources for the osu! community</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/sammy08300" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/yuzuctus" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://discord.gg/66s8TF6Hwj" target="_blank"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-projects">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="https://osurea.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> osurea</a></li>
+                        <li><a href="https://osu-yuzu-skins.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> osu-yuzu-skins</a></li>
+                    </ul>
+                </div>
+                <div class="footer-resources">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://osu.ppy.sh/" target="_blank"><i class="fas fa-gamepad"></i> osu! Official</a></li>
+                        <li><a href="https://osu.ppy.sh/users/14062291" target="_blank"><i class="fas fa-user"></i> My osu! Profile</a></li>
+                        <li><a href="https://osu.ppy.sh/wiki/en/Main_Page" target="_blank"><i class="fas fa-book"></i> osu! Wiki</a></li>
+                        <li><a href="https://osu.ppy.sh/community/forums" target="_blank"><i class="fas fa-comments"></i> osu! Forums</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                        <li><a href="#connect"><i class="fas fa-link"></i> Connect</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 osu! Yuzuctus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="src/js/main.js"></script>
+</body>
+</html> 
