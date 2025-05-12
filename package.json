@@ -4,8 +4,8 @@
   "description": "Portfolio website for osu! projects",
   "main": "index.html",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --watch",
-    "build": "node config/build.js"
+    "dev": "npx tailwindcss -i ./src/css/styles.css -o ./public/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/css/styles.css -o ./public/styles.css --minify"
   },
   "keywords": [
     "osu",
