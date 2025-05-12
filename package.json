@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --watch",
-    "build": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --minify"
+    "build": "node config/build.js"
   },
   "keywords": [
     "osu",
