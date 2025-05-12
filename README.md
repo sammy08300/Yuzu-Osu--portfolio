@@ -31,38 +31,6 @@ project/
 └── README.md        # Documentation
 ```
 
-## Setup Instructions
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/yuzuctus-osu-portfolio.git
-   cd yuzuctus-osu-portfolio
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Run the development server:
-   ```
-   npm run dev
-   ```
-
-4. Open `src/index.html` in your browser. To see Tailwind CSS styles properly, you'll need to either:
-   - Use a local development server like Live Server for VS Code
-   - Link to `dist/styles.css` in your HTML
-
-## Build for Production
-
-To build optimized CSS for production:
-
-```
-npm run build
-```
-
-This will generate minified CSS in the `dist` folder.
-
 ## Features
 
 - Responsive design that works on all devices
@@ -72,15 +40,3 @@ This will generate minified CSS in the `dist` folder.
 - Social media integration
 - Modern UI with attention to detail
 
-## Customization
-
-To customize the site for your own projects:
-
-1. Update project details in `src/index.html`
-2. Edit project data in `src/js/main.js` to update modal content
-3. Adjust color variables in `src/css/styles.css` to match your branding
-4. Replace placeholder images in `src/assets/images/` with your own project screenshots
-
-## License
-
-MIT 
